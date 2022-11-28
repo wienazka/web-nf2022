@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    padding: 5;
+    margin: 0;
+    background-color: rgb(98, 114, 102);
+}
+p {
+    padding: 2em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+header, footer {
+    flex-direction: row;
+    background-color: #9af1bd;
+    height: 18vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 20px;
+    justify-content: space-between;
+}
+.container .items {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+}
+.box{
+    margin: 5px;
+    height: 400px;
+}
+.foto img{
+    width: 23%;
+    padding: 20px;
+    
+}
+.kiri{
+    width: 20%;
+    background-color: #202c25;
+    
+}
+.kanan{
+    background-color: #336f4a;
+    width: 80%;
+}
